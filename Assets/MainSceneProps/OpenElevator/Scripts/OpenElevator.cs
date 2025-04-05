@@ -16,6 +16,7 @@ public class OpenElevator : MonoBehaviour
     private bool hasReachedTarget = false;
     private float waitTimer = 0f;
     private float waitDuration = 1f;
+    private bool hasActivated = false;
 
     void Start()
     {
@@ -28,29 +29,17 @@ public class OpenElevator : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (interactionZone != null && player != null)
         {
-            if (interactionZone != null && player != null)
+            Collider2D zoneCollider = interactionZone.GetComponent<Collider2D>();
+            if (zoneCollider != null && zoneCollider.OverlapPoint(player.transform.position))
             {
-                Collider2D zoneCollider = interactionZone.GetComponent<Collider2D>();
-                if (zoneCollider != null && zoneCollider.OverlapPoint(player.transform.position))
+                if (!hasActivated && !isMovingOut && !hasReachedTarget)
                 {
-                    Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-                    RaycastHit2D hit = Physics2D.Raycast(ray.origin, ray.direction);
-                    if (hit.collider != null && hit.collider.gameObject == button)
-                    {
-                        if (!isMovingOut && !hasReachedTarget)
-                        {
-                            isMovingOut = true;
-                            isReturning = false;
-                            waitTimer = 0f;
-                        }
-                        else if (hasReachedTarget)
-                        {
-                            hasReachedTarget = false;
-                            waitTimer = 0f;
-                        }
-                    }
+                    isMovingOut = true;
+                    isReturning = false;
+                    hasActivated = true;
+                    waitTimer = 0f;
                 }
             }
         }
@@ -84,8 +73,8 @@ public class OpenElevator : MonoBehaviour
             {
                 door.transform.position = originalPos;
                 isReturning = false;
+                hasActivated = false;
             }
         }
     }
 }
-
