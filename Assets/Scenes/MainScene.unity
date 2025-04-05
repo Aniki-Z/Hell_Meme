@@ -653,7 +653,7 @@ MonoBehaviour:
   player: {fileID: 97286751}
   area: {fileID: 722449897}
   speed: 0.8
-  chaseRange: 1
+  chaseRange: 1.5
   moveRange: 0.5
 --- !u!50 &281001082
 Rigidbody2D:
