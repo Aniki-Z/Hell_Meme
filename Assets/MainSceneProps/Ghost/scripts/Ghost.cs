@@ -2,21 +2,28 @@ using UnityEngine;
 
 public class Ghost : MonoBehaviour
 {
-    public GameObject player;
-    public Transform area;
+    [HideInInspector] public GameObject player;
+    [HideInInspector] public Transform area;
+
     public float speed = 1f;
     public float chaseRange = 0.5f;
     public float moveRange = 0.5f;
+
     private Vector2 targetPoint;
     private bool isChasing = false;
 
     private void Start()
     {
-        SetRandomTargetPoint();
+        if (area != null) SetRandomTargetPoint();
     }
 
     private void Update()
     {
+        if (player == null || area == null) return;
+
+        float distanceToPlayer = Vector2.Distance(transform.position, player.transform.position);
+        isChasing = distanceToPlayer <= chaseRange;
+
         if (isChasing)
         {
             ChasePlayer();
@@ -24,15 +31,6 @@ public class Ghost : MonoBehaviour
         else
         {
             MoveRandomly();
-        }
-
-        if (Vector2.Distance(transform.position, player.transform.position) <= chaseRange)
-        {
-            isChasing = true;
-        }
-        else
-        {
-            isChasing = false;
         }
     }
 
@@ -57,12 +55,7 @@ public class Ghost : MonoBehaviour
     private void ChasePlayer()
     {
         transform.position = Vector2.MoveTowards(transform.position, player.transform.position, speed * Time.deltaTime);
-
-        if (Vector2.Distance(transform.position, player.transform.position) > chaseRange)
-        {
-            isChasing = false;
-            SetRandomTargetPoint();
-        }
     }
 }
+
 
