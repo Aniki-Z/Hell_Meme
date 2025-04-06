@@ -160,4 +160,18 @@ public class GhostManager : MonoBehaviour
             Destroy(ghost);
         }
     }
+    
+    //public function below
+    public void SetElevatorDoorsMovable(bool canMove)
+    {
+        if (openElevatorLeft != null)
+        {
+            openElevatorLeft.canMove = canMove;
+        }
+
+        if (openElevatorRight != null)
+        {
+            openElevatorRight.canMove = canMove;
+        }
+    }
 }
