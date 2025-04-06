@@ -170,3 +170,5 @@ MonoBehaviour:
   speed: 0.8
   chaseRange: 1.5
   moveRange: 0.5
+  reducescore: 1
+  pauseDuration: 2

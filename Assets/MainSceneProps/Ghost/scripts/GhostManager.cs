@@ -9,6 +9,7 @@ public class GhostManager : MonoBehaviour
     public OpenElevator openElevatorRight;
     public Transform area;
     public Transform shrinkPoint;
+    public int addscore = 1;
 
     private bool isPurging = false;
     private List<GameObject> activeGhosts = new List<GameObject>();
@@ -150,6 +151,7 @@ public class GhostManager : MonoBehaviour
         if (!isPurging)
         {
             Destroy(ghost);
+            GameManager.instance.AddScore(addscore);
             yield break;
         }
 
@@ -159,6 +161,7 @@ public class GhostManager : MonoBehaviour
             if (!isPurging)
             {
                 Destroy(ghost);
+                GameManager.instance.AddScore(addscore);
                 yield break;
             }
 
@@ -171,6 +174,7 @@ public class GhostManager : MonoBehaviour
         if (ghost != null && isPurging)
         {
             Destroy(ghost);
+            GameManager.instance.AddScore(addscore);
         }
     }
     
