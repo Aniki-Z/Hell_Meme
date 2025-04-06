@@ -15,6 +15,19 @@ public class GhostManager : MonoBehaviour
     private Coroutine purgeCoroutine;
     private List<GameObject> currentlyPurging = new List<GameObject>();
 
+    public static GhostManager instance;
+    void Awake()
+    {
+        if (instance == null)
+        {
+            instance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
+
     void Update()
     {
         if (ghostSpawner == null || openElevatorLeft == null || openElevatorRight == null || shrinkPoint == null) return;
