@@ -174,4 +174,19 @@ public class GhostManager : MonoBehaviour
             openElevatorRight.canMove = canMove;
         }
     }
+
+    public void ForceMoveElevators(bool toTargetPosition)
+    {
+        if (openElevatorLeft != null)
+        {
+            if (toTargetPosition) openElevatorLeft.ForceOpen();
+            else openElevatorLeft.ForceClose();
+        }
+
+        if (openElevatorRight != null)
+        {
+            if (toTargetPosition) openElevatorRight.ForceOpen();
+            else openElevatorRight.ForceClose();
+        }
+    }
 }

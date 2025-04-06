@@ -128,4 +128,22 @@ public class OpenElevator : MonoBehaviour
     {
         return isMovingOut || isReturning;
     }
+
+    public void ForceOpen()
+    {
+        isMovingOut = true;
+        isReturning = false;
+        hasReachedTarget = false;
+        shouldReopen = false;
+        waitTimer = 0f;
+    }
+
+    public void ForceClose()
+    {
+        isMovingOut = false;
+        isReturning = true;
+        hasReachedTarget = false;
+        shouldReopen = false;
+        waitTimer = 0f;
+    }
 }
