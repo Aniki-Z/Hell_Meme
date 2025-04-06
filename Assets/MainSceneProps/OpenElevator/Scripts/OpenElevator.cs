@@ -4,7 +4,6 @@ public class OpenElevator : MonoBehaviour
 {
     public GameObject button;
     public GameObject door;
-    public GameObject player;
     public GameObject interactionZone;
     public float moveDistance = 1f;
     public float moveSpeed = 1f;
@@ -29,17 +28,22 @@ public class OpenElevator : MonoBehaviour
 
     void Update()
     {
-        if (interactionZone != null && player != null)
+        if (interactionZone != null)
         {
             Collider2D zoneCollider = interactionZone.GetComponent<Collider2D>();
-            if (zoneCollider != null && zoneCollider.OverlapPoint(player.transform.position))
+            if (zoneCollider != null)
             {
-                if (!hasActivated && !isMovingOut && !hasReachedTarget)
+                Collider2D[] colliders = Physics2D.OverlapBoxAll(zoneCollider.bounds.center, zoneCollider.bounds.size, 0f);
+                foreach (var col in colliders)
                 {
-                    isMovingOut = true;
-                    isReturning = false;
-                    hasActivated = true;
-                    waitTimer = 0f;
+                    if (col.CompareTag("Player") && !hasActivated && !isMovingOut && !hasReachedTarget)
+                    {
+                        isMovingOut = true;
+                        isReturning = false;
+                        hasActivated = true;
+                        waitTimer = 0f;
+                        break;
+                    }
                 }
             }
         }
@@ -76,5 +80,10 @@ public class OpenElevator : MonoBehaviour
                 hasActivated = false;
             }
         }
+    }
+
+    public bool IsDoorMoving()
+    {
+        return isMovingOut || isReturning;
     }
 }
