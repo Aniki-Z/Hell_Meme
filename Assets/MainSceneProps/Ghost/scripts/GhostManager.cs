@@ -9,11 +9,25 @@ public class GhostManager : MonoBehaviour
     public OpenElevator openElevatorRight;
     public Transform area;
     public Transform shrinkPoint;
+    public int addscore = 1;
 
     private bool isPurging = false;
     private List<GameObject> activeGhosts = new List<GameObject>();
     private Coroutine purgeCoroutine;
     private List<GameObject> currentlyPurging = new List<GameObject>();
+
+    public static GhostManager instance;
+    void Awake()
+    {
+        if (instance == null)
+        {
+            instance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
 
     void Update()
     {
@@ -137,6 +151,7 @@ public class GhostManager : MonoBehaviour
         if (!isPurging)
         {
             Destroy(ghost);
+            GameManager.instance.AddScore(addscore);
             yield break;
         }
 
@@ -146,6 +161,7 @@ public class GhostManager : MonoBehaviour
             if (!isPurging)
             {
                 Destroy(ghost);
+                GameManager.instance.AddScore(addscore);
                 yield break;
             }
 
@@ -158,6 +174,7 @@ public class GhostManager : MonoBehaviour
         if (ghost != null && isPurging)
         {
             Destroy(ghost);
+            GameManager.instance.AddScore(addscore);
         }
     }
     
@@ -172,6 +189,21 @@ public class GhostManager : MonoBehaviour
         if (openElevatorRight != null)
         {
             openElevatorRight.canMove = canMove;
+        }
+    }
+
+    public void ForceMoveElevators(bool toTargetPosition)
+    {
+        if (openElevatorLeft != null)
+        {
+            if (toTargetPosition) openElevatorLeft.ForceOpen();
+            else openElevatorLeft.ForceClose();
+        }
+
+        if (openElevatorRight != null)
+        {
+            if (toTargetPosition) openElevatorRight.ForceOpen();
+            else openElevatorRight.ForceClose();
         }
     }
 }

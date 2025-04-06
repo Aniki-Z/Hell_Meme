@@ -16,8 +16,6 @@ public class OpenElevator : MonoBehaviour
     private bool hasReachedTarget = false;
     private float waitTimer = 0f;
     private float waitDuration = 1f;
-    private bool hasActivated = false;
-
     private bool playerInside = false;
     private float reopenDelayTimer = 0f;
     private bool shouldReopen = false;
@@ -60,7 +58,6 @@ public class OpenElevator : MonoBehaviour
                         {
                             isMovingOut = true;
                             isReturning = false;
-                            hasActivated = true;
                             waitTimer = 0f;
                         }
 
@@ -78,7 +75,6 @@ public class OpenElevator : MonoBehaviour
                 shouldReopen = false;
                 isMovingOut = true;
                 isReturning = false;
-                hasActivated = true;
                 waitTimer = 0f;
             }
         }
@@ -119,7 +115,6 @@ public class OpenElevator : MonoBehaviour
             {
                 door.transform.position = originalPos;
                 isReturning = false;
-                hasActivated = false;
             }
         }
     }
@@ -127,5 +122,23 @@ public class OpenElevator : MonoBehaviour
     public bool IsDoorMoving()
     {
         return isMovingOut || isReturning;
+    }
+
+    public void ForceOpen()
+    {
+        isMovingOut = true;
+        isReturning = false;
+        hasReachedTarget = false;
+        shouldReopen = false;
+        waitTimer = 0f;
+    }
+
+    public void ForceClose()
+    {
+        isMovingOut = false;
+        isReturning = true;
+        hasReachedTarget = false;
+        shouldReopen = false;
+        waitTimer = 0f;
     }
 }

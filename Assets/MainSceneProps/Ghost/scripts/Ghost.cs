@@ -8,9 +8,12 @@ public class Ghost : MonoBehaviour
     public float speed = 1f;
     public float chaseRange = 0.5f;
     public float moveRange = 0.5f;
+    public int reducescore = 1;
+    public float pauseDuration = 1f;
 
     private Vector2 targetPoint;
     private bool isChasing = false;
+    private float pauseTimer = 0f;
 
     private void Start()
     {
@@ -20,6 +23,12 @@ public class Ghost : MonoBehaviour
     private void Update()
     {
         if (player == null || area == null) return;
+
+        if (pauseTimer > 0f)
+        {
+            pauseTimer -= Time.deltaTime;
+            return;
+        }
 
         float distanceToPlayer = Vector2.Distance(transform.position, player.transform.position);
         isChasing = distanceToPlayer <= chaseRange;
@@ -55,6 +64,15 @@ public class Ghost : MonoBehaviour
     private void ChasePlayer()
     {
         transform.position = Vector2.MoveTowards(transform.position, player.transform.position, speed * Time.deltaTime);
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject == player)
+        {
+            GameManager.instance.SubtractScore(reducescore);
+            pauseTimer = pauseDuration;
+        }
     }
 }
 
