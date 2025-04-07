@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      goshujinsama_0: 4130568282032559090
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

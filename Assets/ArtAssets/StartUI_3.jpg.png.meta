@@ -322,7 +322,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      StartUI_3.jpg_0: -2443313237632691689
+      StartUI_3.jpg_1: 4870712861494951366
+      StartUI_3.jpg_2: 777156279649820348
+      StartUI_3.jpg_3: 841538274790867385
+      StartUI_3.jpg_4: -4086899684745521839
+      StartUI_3.jpg_5: 2382920931240839675
+      StartUI_3.jpg_6: 3689406200308139539
+      StartUI_3.jpg_7: -6233358488898412927
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

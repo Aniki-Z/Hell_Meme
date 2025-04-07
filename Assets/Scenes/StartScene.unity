@@ -8883,6 +8883,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _colliderPrefab: {fileID: 3037344736328095712, guid: de5b8bbd214e0324c834f36509b72e52, type: 3}
+  _effectPrefab: {fileID: 4889910732309952078, guid: c842b58450166ac4d8c4f055ad008ade, type: 3}
   _colliders:
   - {fileID: 1272390318}
   - {fileID: 522549056}
