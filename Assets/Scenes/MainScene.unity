@@ -2788,6 +2788,8 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 04bca195f686f9d469fa685540c34ca4, type: 3}
   - {fileID: 8300000, guid: b05f03265b682c546bab1eb5aa209fe8, type: 3}
   - {fileID: 8300000, guid: 9aa1f99e6df221b429424598d798b35d, type: 3}
+  ghostOutClip: {fileID: 8300000, guid: 515307b08689b9843abf7219fc05ffa3, type: 3}
+  buttonPressedClip: {fileID: 8300000, guid: 094a775df400c6142891de1fa13a7bb2, type: 3}
   speedLinesParticleLeft: {fileID: 1751781311}
   speedLinesParticleRight: {fileID: 1374037419}
   leftButton: {fileID: 728141642}
