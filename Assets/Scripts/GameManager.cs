@@ -2,7 +2,7 @@ using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
 using TMPro;
-
+using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
@@ -30,6 +30,7 @@ public class GameManager : MonoBehaviour
         Warning
     }
     private CurrentState _currentState;
+    public bool isNormalFloor => currentFloor > -17;
     
     // when state changes, call OnStateChanged 
     public CurrentState currentState
@@ -49,9 +50,11 @@ public class GameManager : MonoBehaviour
     private AudioSource shortAudioSource;
 
     [Header("Floor Display")]
-    public TextMeshProUGUI floorDisplayText;
-    public float floorChangeInterval = 20f; // 每20秒改变一次楼层
-    public int floorsPerChange = 3; // 每次改变3层
+    public TextMeshPro floorDisplayText;
+    public float floorChangeInterval = 20f;
+    public int floorsPerChange = 1;
+    public Vector2 newNumberStartPos = new Vector2(0, -50);
+    public float animationDuration = 3f;
     private float floorChangeTimer = 0f;
     private int targetFloor = 0;
 
@@ -117,11 +120,46 @@ public class GameManager : MonoBehaviour
     }
 
     IEnumerator StartStopping()
-    {
+    {   
+        //play stop sound
         shortAudioSource.PlayOneShot(elevatorStopClip);
+
+        //open the door
         GhostManager.instance.ForceMoveElevators(true);
-        yield return new WaitForSeconds(15f);
-        currentState = CurrentState.Warning;
+
+        //set the doors movable
+        GhostManager.instance.SetElevatorDoorsMovable(true);
+
+        if (isNormalFloor)
+        {
+            yield return new WaitForSeconds(15f);
+
+            //set the doors unmovable
+            GhostManager.instance.SetElevatorDoorsMovable(false);
+
+            currentState = CurrentState.Warning;
+        }
+        else
+        {   
+            // keep the fxxking door open
+            int i = 0;
+            while(i<5)
+            {
+                yield return new WaitForSeconds(1f);
+                GhostManager.instance.ForceMoveElevators(true);
+                i++;
+            }
+
+            // end the game
+            if (score > 10)
+            {
+                SceneManager.LoadScene("SuccessEnd");
+            }
+            else
+            {
+                SceneManager.LoadScene("FailedEnd");
+            }
+        }
     }
     IEnumerator StartWarning()
     {   
@@ -141,10 +179,19 @@ public class GameManager : MonoBehaviour
         longAudioSource.loop = true;
         longAudioSource.Play();
         StartCoroutine(FadeInAudio(longAudioSource, 2f, 0f, 0.2f));
+        
         // particles
         speedLinesParticleLeft.Play();
         speedLinesParticleRight.Play();
-        yield return new WaitForSeconds(60f);
+
+        if (isNormalFloor)
+        {
+            yield return new WaitForSeconds(60f);
+        }
+        else
+        {
+            yield return new WaitForSeconds(10f);
+        }
         longAudioSource.Stop();
         speedLinesParticleLeft.Stop();
         speedLinesParticleRight.Stop();
@@ -178,67 +225,60 @@ public class GameManager : MonoBehaviour
     }
     #endregion
 
-
-    /// <summary>
-    /// should be implemented in the elevator script
-    /// </summary>
-    void DoorOpen()
-    {
-
-    }
-
-    void DoorClose()
-    {
-
-    }
-
+    #region floor display
     private void UpdateFloorDisplay()
     {
-        if (currentState == CurrentState.Moving)
+        floorChangeTimer += Time.deltaTime;
+        if (floorChangeTimer >= (isNormalFloor ? floorChangeInterval : 10f))
         {
-            floorChangeTimer += Time.deltaTime;
-            if (floorChangeTimer >= floorChangeInterval)
-            {
-                floorChangeTimer = 0f;
-                currentFloor -= floorsPerChange;
-                targetFloor = currentFloor;
-                StartCoroutine(AnimateFloorChange());
-            }
+            floorChangeTimer = 0f;
+            currentFloor -= floorsPerChange;
+            targetFloor = currentFloor;
+            StartCoroutine(AnimateFloorChange());
         }
     }
 
     private IEnumerator AnimateFloorChange()
     {
-        // 创建新的数字对象
+        // create a new floor number
         GameObject newNumber = new GameObject("FloorNumber");
         newNumber.transform.SetParent(floorDisplayText.transform.parent);
-        TextMeshProUGUI newText = newNumber.AddComponent<TextMeshProUGUI>();
+        TextMeshPro newText = newNumber.AddComponent<TextMeshPro>();
         newText.text = targetFloor.ToString();
         newText.font = floorDisplayText.font;
         newText.fontSize = floorDisplayText.fontSize;
         newText.color = floorDisplayText.color;
         newText.alignment = floorDisplayText.alignment;
         
-        // 设置初始位置（在下方）
-        RectTransform rectTransform = newText.GetComponent<RectTransform>();
-        rectTransform.anchoredPosition = new Vector2(0, -50);
+        // get the old floor number's RectTransform
+        RectTransform oldRectTransform = floorDisplayText.GetComponent<RectTransform>();
+        RectTransform newRectTransform = newText.GetComponent<RectTransform>();
         
-        // 动画效果
-        float duration = 1f;
+        // set the initial position of the new floor number
+        newRectTransform.anchoredPosition = newNumberStartPos;
+        
+        // animation
         float elapsed = 0f;
-        Vector2 startPos = rectTransform.anchoredPosition;
-        Vector2 endPos = Vector2.zero;
+        Vector2 oldStartPos = oldRectTransform.anchoredPosition;
+        float moveDistance = oldStartPos.y - newNumberStartPos.y;
         
-        while (elapsed < duration)
+        while (elapsed < animationDuration)
         {
             elapsed += Time.deltaTime;
-            float t = elapsed / duration;
-            rectTransform.anchoredPosition = Vector2.Lerp(startPos, endPos, t);
+            float t = elapsed / animationDuration;
+            
+            // floor number moves up
+            oldRectTransform.anchoredPosition = Vector2.Lerp(oldStartPos, 
+            new Vector2(oldStartPos.x, oldStartPos.y + moveDistance), t);
+            newRectTransform.anchoredPosition = Vector2.Lerp(newNumberStartPos, oldStartPos, t);
+            
             yield return null;
         }
         
-        // 更新显示文本并销毁动画对象
-        floorDisplayText.text = targetFloor.ToString();
+        // update the display text and destroy the animation object
+        floorDisplayText.text = targetFloor.ToString(); 
+        floorDisplayText.GetComponent<RectTransform>().anchoredPosition = oldStartPos;
         Destroy(newNumber);
     }
+    #endregion
 }
