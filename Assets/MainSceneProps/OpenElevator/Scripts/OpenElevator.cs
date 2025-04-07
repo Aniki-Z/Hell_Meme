@@ -17,6 +17,7 @@ public class OpenElevator : MonoBehaviour
     private float waitTimer = 0f;
     private float waitDuration = 1f;
     private bool playerInside = false;
+    private bool playerInsideLastFrame = false;
     private float reopenDelayTimer = 0f;
     private bool shouldReopen = false;
     private float reopenDelay = 0.2f;
@@ -25,17 +26,18 @@ public class OpenElevator : MonoBehaviour
     {
         if (door != null)
         {
-            originalPos = door.transform.position;
-            targetPos = originalPos + Vector3.right * moveDistance;
+            targetPos = door.transform.position;
+            // targetPos = originalPos + Vector3.right * moveDistance;
+            originalPos = targetPos - Vector3.right * moveDistance;
         }
     }
 
     void Update()
     {
-        if (!canMove) return;
+        // if (!canMove) return;
 
         playerInside = false;
-        if (interactionZone != null)
+        if (interactionZone != null && canMove)
         {
             Collider2D zoneCollider = interactionZone.GetComponent<Collider2D>();
             if (zoneCollider != null)
@@ -117,6 +119,17 @@ public class OpenElevator : MonoBehaviour
                 isReturning = false;
             }
         }
+
+        // when player inside change
+        if (playerInside == true && playerInsideLastFrame == false)
+        {
+            GameManager.instance.ButtonPressed(button);
+        }
+        else if (playerInside == false && playerInsideLastFrame == true)
+        {
+            GameManager.instance.ButtonReleased(button);
+        }
+        playerInsideLastFrame = playerInside;
     }
 
     public bool IsDoorMoving()
