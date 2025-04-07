@@ -16,11 +16,19 @@ public class GameManager : MonoBehaviour
     public AudioClip elevatorAlarmClip;
     public AudioClip elevatorStartClip;
     public AudioClip elevatorMovingClip;
-
+    public AudioClip backgroundMusicClip;
     [Header("Particles")]
     public ParticleSystem speedLinesParticleLeft;
     public ParticleSystem speedLinesParticleRight;
 
+    [Header("Buttons")]
+    public GameObject leftButton;
+    public GameObject rightButton;
+    public Sprite buttonSprite;
+    public Sprite buttonPressedSprite;
+
+    private IEnumerator glowCoroutineLeft;
+    private IEnumerator glowCoroutineRight;
     [Header("Score")]
     public int score;
     public enum CurrentState
@@ -48,6 +56,7 @@ public class GameManager : MonoBehaviour
 
     private AudioSource longAudioSource;
     private AudioSource shortAudioSource;
+    private AudioSource backgroundMusic;
 
     [Header("Floor Display")]
     public TextMeshPro floorDisplayText;
@@ -55,8 +64,14 @@ public class GameManager : MonoBehaviour
     public int floorsPerChange = 1;
     public Vector2 newNumberStartPos = new Vector2(0, -50);
     public float animationDuration = 3f;
-    private float floorChangeTimer = 0f;
     private int targetFloor = 0;
+
+    [Header("Elevator Shake")]
+    
+    public GameObject elevator;
+    public float shakeAmount = 0.1f;
+    public float shakeSpeed = 5f;
+    private Vector3 originalElevatorPosition;
 
     // initialize the game manager
     void Awake()
@@ -71,12 +86,24 @@ public class GameManager : MonoBehaviour
         }
         longAudioSource = gameObject.AddComponent<AudioSource>();
         shortAudioSource = gameObject.AddComponent<AudioSource>();
+        backgroundMusic = gameObject.AddComponent<AudioSource>();
+        backgroundMusic.clip = backgroundMusicClip;
+        backgroundMusic.volume = 0.1f;
+        backgroundMusic.loop = true;
+        backgroundMusic.Play();
     }
 
     void Start()
     {
         score = 0;
         currentState = CurrentState.Stopped;
+
+        // set the elevator position
+        originalElevatorPosition = elevator.transform.position;
+
+        // set the doors unmovable
+        GhostManager.instance.SetElevatorDoorsMovable(false);
+
         StartCoroutine(StartWarning());
     }
 
@@ -85,8 +112,6 @@ public class GameManager : MonoBehaviour
         switch (currentState)
         {
             case CurrentState.Moving:
-                MoveElevator();
-                UpdateFloorDisplay();
                 break;
             case CurrentState.Stopped:
                 break;
@@ -114,11 +139,7 @@ public class GameManager : MonoBehaviour
 
     #region state functions
 
-    void MoveElevator()
-    {
-        //TODO: play elevator moving sound
-    }
-
+    // Stop => Warning
     IEnumerator StartStopping()
     {   
         //play stop sound
@@ -129,6 +150,9 @@ public class GameManager : MonoBehaviour
 
         //set the doors movable
         GhostManager.instance.SetElevatorDoorsMovable(true);
+        
+        // Start button glow effect
+        StartButtonGlow();
 
         if (isNormalFloor)
         {
@@ -136,6 +160,14 @@ public class GameManager : MonoBehaviour
 
             //set the doors unmovable
             GhostManager.instance.SetElevatorDoorsMovable(false);
+            
+            // Stop button glow effect
+            StopCoroutine(glowCoroutineLeft);
+            StopCoroutine(glowCoroutineRight);
+            SpriteRenderer leftGlow = leftButton.GetComponentInChildren<SpriteRenderer>();
+            SpriteRenderer rightGlow = rightButton.GetComponentInChildren<SpriteRenderer>();
+            if (leftGlow != null) leftGlow.enabled = false;
+            if (rightGlow != null) rightGlow.enabled = false;
 
             currentState = CurrentState.Warning;
         }
@@ -161,6 +193,8 @@ public class GameManager : MonoBehaviour
             }
         }
     }
+
+    // Warning => Moving
     IEnumerator StartWarning()
     {   
         shortAudioSource.PlayOneShot(elevatorAlarmClip, 0.15f);
@@ -168,9 +202,11 @@ public class GameManager : MonoBehaviour
         GhostManager.instance.ForceMoveElevators(false);
         yield return new WaitForSeconds(2f);
         shortAudioSource.Stop();
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(1f);
         currentState = CurrentState.Moving;
     }
+
+    // Moving => Stopped
     IEnumerator StartMoving()
     {
         // sound
@@ -184,13 +220,23 @@ public class GameManager : MonoBehaviour
         speedLinesParticleLeft.Play();
         speedLinesParticleRight.Play();
 
+        // Start shaking
+        StartCoroutine(ShakeElevator());
+
         if (isNormalFloor)
         {
-            yield return new WaitForSeconds(60f);
+            int i = 0;
+            while(i< (60 / floorChangeInterval))
+            {
+                yield return new WaitForSeconds(floorChangeInterval);
+                UpdateFloorDisplay();
+                i++;
+            }
         }
         else
         {
             yield return new WaitForSeconds(10f);
+            UpdateFloorDisplay();
         }
         longAudioSource.Stop();
         speedLinesParticleLeft.Stop();
@@ -214,7 +260,7 @@ public class GameManager : MonoBehaviour
     
                                                                                                                                                             
     #endregion
-    #region score functions
+    #region public functions
     public void AddScore(int amount)
     {
         score += amount;
@@ -223,19 +269,22 @@ public class GameManager : MonoBehaviour
     {
         score -= amount;
     }
+    public void ButtonPressed(GameObject button)
+    {
+        button.GetComponent<SpriteRenderer>().sprite = buttonPressedSprite; 
+    }
+    public void ButtonReleased(GameObject button)
+    {
+        button.GetComponent<SpriteRenderer>().sprite = buttonSprite;
+    }
     #endregion
 
     #region floor display
     private void UpdateFloorDisplay()
     {
-        floorChangeTimer += Time.deltaTime;
-        if (floorChangeTimer >= (isNormalFloor ? floorChangeInterval : 10f))
-        {
-            floorChangeTimer = 0f;
             currentFloor -= floorsPerChange;
             targetFloor = currentFloor;
             StartCoroutine(AnimateFloorChange());
-        }
     }
 
     private IEnumerator AnimateFloorChange()
@@ -281,4 +330,47 @@ public class GameManager : MonoBehaviour
         Destroy(newNumber);
     }
     #endregion
+
+    private void StartButtonGlow()
+    {
+        glowCoroutineLeft = GlowButton(leftButton);
+        glowCoroutineRight = GlowButton(rightButton);
+        StartCoroutine(glowCoroutineLeft);
+        StartCoroutine(glowCoroutineRight);
+    }
+
+    private IEnumerator GlowButton(GameObject button)
+    {
+        // Find the sprite renderer in children
+        SpriteRenderer glowSprite = button.transform.GetChild(0).GetComponent<SpriteRenderer>();
+        if (glowSprite == null) yield break;
+
+        // Enable and set initial color
+        glowSprite.enabled = true;
+        Color originalColor = glowSprite.color;
+        
+        // glow effect
+        while (true)
+        {
+            float t = Mathf.PingPong(Time.time * 2f, 1f);
+            float alpha = Mathf.Lerp(0.2f, 1f, t);
+            glowSprite.color = new Color(originalColor.r, originalColor.g, originalColor.b, alpha);
+            yield return null;
+        }
+    }
+
+    private IEnumerator ShakeElevator()
+    {
+        while (currentState == CurrentState.Moving)
+        {
+            // shake the elevator randomly
+            float x = Mathf.PerlinNoise(Time.time * shakeSpeed, 0) * 2 - 1;
+            float y = Mathf.PerlinNoise(0, Time.time * shakeSpeed) * 2 - 1;
+            Vector3 shakeOffset = new Vector3(x, y, 0) * shakeAmount;
+            elevator.transform.position = originalElevatorPosition + shakeOffset;
+            yield return null;
+        }
+        // reset elevator position when stopped
+        elevator.transform.position = originalElevatorPosition;
+    }
 }
