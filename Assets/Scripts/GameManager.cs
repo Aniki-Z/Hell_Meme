@@ -17,6 +17,10 @@ public class GameManager : MonoBehaviour
     public AudioClip elevatorStartClip;
     public AudioClip elevatorMovingClip;
     public AudioClip backgroundMusicClip;
+    public AudioClip[] catTouchedClips;
+    public AudioClip[] catSlapClip;
+    public AudioClip ghostOutClip;
+    public AudioClip buttonPressedClip;
     [Header("Particles")]
     public ParticleSystem speedLinesParticleLeft;
     public ParticleSystem speedLinesParticleRight;
@@ -54,8 +58,9 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    private AudioSource longAudioSource;
-    private AudioSource shortAudioSource;
+    private AudioSource longElevatorAudio;
+    private AudioSource shortElevatorAudio;
+    private AudioSource basicAudio;
     private AudioSource backgroundMusic;
 
     [Header("Floor Display")]
@@ -84,9 +89,10 @@ public class GameManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
-        longAudioSource = gameObject.AddComponent<AudioSource>();
-        shortAudioSource = gameObject.AddComponent<AudioSource>();
+        longElevatorAudio = gameObject.AddComponent<AudioSource>();
+        shortElevatorAudio = gameObject.AddComponent<AudioSource>();
         backgroundMusic = gameObject.AddComponent<AudioSource>();
+        basicAudio = gameObject.AddComponent<AudioSource>();
         backgroundMusic.clip = backgroundMusicClip;
         backgroundMusic.volume = 0.1f;
         backgroundMusic.loop = true;
@@ -143,7 +149,7 @@ public class GameManager : MonoBehaviour
     IEnumerator StartStopping()
     {   
         //play stop sound
-        shortAudioSource.PlayOneShot(elevatorStopClip);
+        shortElevatorAudio.PlayOneShot(elevatorStopClip);
 
         //open the door
         GhostManager.instance.ForceMoveElevators(true);
@@ -197,11 +203,11 @@ public class GameManager : MonoBehaviour
     // Warning => Moving
     IEnumerator StartWarning()
     {   
-        shortAudioSource.PlayOneShot(elevatorAlarmClip, 0.15f);
+        shortElevatorAudio.PlayOneShot(elevatorAlarmClip, 0.15f);
         yield return new WaitForSeconds(1f);
         GhostManager.instance.ForceMoveElevators(false);
         yield return new WaitForSeconds(2f);
-        shortAudioSource.Stop();
+        shortElevatorAudio.Stop();
         yield return new WaitForSeconds(1f);
         currentState = CurrentState.Moving;
     }
@@ -210,11 +216,11 @@ public class GameManager : MonoBehaviour
     IEnumerator StartMoving()
     {
         // sound
-        shortAudioSource.PlayOneShot(elevatorStartClip);
-        longAudioSource.clip = elevatorMovingClip;
-        longAudioSource.loop = true;
-        longAudioSource.Play();
-        StartCoroutine(FadeInAudio(longAudioSource, 2f, 0f, 0.2f));
+        shortElevatorAudio.PlayOneShot(elevatorStartClip);
+        longElevatorAudio.clip = elevatorMovingClip;
+        longElevatorAudio.loop = true;
+        longElevatorAudio.Play();
+        StartCoroutine(FadeInAudio(longElevatorAudio, 2f, 0f, 0.5f));
         
         // particles
         speedLinesParticleLeft.Play();
@@ -238,7 +244,7 @@ public class GameManager : MonoBehaviour
             yield return new WaitForSeconds(10f);
             UpdateFloorDisplay();
         }
-        longAudioSource.Stop();
+        longElevatorAudio.Stop();
         speedLinesParticleLeft.Stop();
         speedLinesParticleRight.Stop();
         currentState = CurrentState.Stopped;
@@ -276,6 +282,27 @@ public class GameManager : MonoBehaviour
     public void ButtonReleased(GameObject button)
     {
         button.GetComponent<SpriteRenderer>().sprite = buttonSprite;
+    }
+
+    public void playTouchedSound()
+    {
+        basicAudio.pitch = Random.Range(0.8f, 1.2f);
+        basicAudio.PlayOneShot(catTouchedClips[Random.Range(0, catTouchedClips.Length)],1f);
+    }
+    public void playSlapSound()
+    {
+        
+        basicAudio.pitch = Random.Range(0.8f, 1.2f);
+        basicAudio.PlayOneShot(catSlapClip[Random.Range(0, catSlapClip.Length)], 0.2f);
+    }
+    public void playGhostOutSound()
+    {
+        basicAudio.pitch = Random.Range(0.8f, 1.2f);
+        basicAudio.PlayOneShot(ghostOutClip,.2f);
+    }
+    public void playButtonPressedSound()
+    {
+        basicAudio.PlayOneShot(buttonPressedClip,1f);
     }
     #endregion
 
@@ -331,6 +358,7 @@ public class GameManager : MonoBehaviour
     }
     #endregion
 
+    #region visual juice
     private void StartButtonGlow()
     {
         glowCoroutineLeft = GlowButton(leftButton);
@@ -358,7 +386,6 @@ public class GameManager : MonoBehaviour
             yield return null;
         }
     }
-
     private IEnumerator ShakeElevator()
     {
         while (currentState == CurrentState.Moving)
@@ -373,4 +400,5 @@ public class GameManager : MonoBehaviour
         // reset elevator position when stopped
         elevator.transform.position = originalElevatorPosition;
     }
+    #endregion
 }
