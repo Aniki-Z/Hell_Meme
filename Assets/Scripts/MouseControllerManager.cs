@@ -28,7 +28,14 @@ public class MouseControllerManager : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            GameManager.instance.playSlapSound();
+            if (GameManager.instance != null)
+            {
+                GameManager.instance.playSlapSound();
+            }
+            else
+            {
+                MenuManager.instance.playSlapSound();
+            }
             Vector3 mousePositionInWorld = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             RaycastHit2D hit = Physics2D.Raycast(mousePositionInWorld, Vector2.zero);
             if (hit.collider != null && hit.collider.CompareTag("Player"))

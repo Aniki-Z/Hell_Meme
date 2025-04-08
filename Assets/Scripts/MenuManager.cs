@@ -11,7 +11,9 @@ public class MenuManager : MonoBehaviour
     public Sprite buttonPressedSprite;
     public Image fadeImage;
     public float fadeDuration = 3f;
-
+    public AudioSource audioSource;
+    public AudioClip buttonPressedClip;
+    public AudioClip[] catSlapClip;
     void Awake()
     {
         if (instance == null)
@@ -35,12 +37,19 @@ public class MenuManager : MonoBehaviour
     public void ButtonPressed(GameObject button)
     {
         button.GetComponent<SpriteRenderer>().sprite = buttonPressedSprite;
+        audioSource.PlayOneShot(buttonPressedClip,1f);
         StartCoroutine(FadeToBlackAndLoadScene());
     }
 
     public void ButtonReleased(GameObject button)
     {
         button.GetComponent<SpriteRenderer>().sprite = buttonSprite;
+    }
+    public void playSlapSound()
+    {
+        
+        audioSource.pitch = Random.Range(0.8f, 1.2f);
+        audioSource.PlayOneShot(catSlapClip[Random.Range(0, catSlapClip.Length)], 0.2f);
     }
 
     private IEnumerator FadeToBlackAndLoadScene()
