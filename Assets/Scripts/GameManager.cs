@@ -78,6 +78,10 @@ public class GameManager : MonoBehaviour
     public float shakeSpeed = 5f;
     private Vector3 originalElevatorPosition;
 
+    [Header("End Screen")]
+    public GameObject kojima;
+    public Image fadeImage;
+
     // initialize the game manager
     void Awake()
     {
@@ -179,6 +183,8 @@ public class GameManager : MonoBehaviour
         }
         else
         {   
+            kojima.SetActive(true);
+
             // keep the fxxking door open
             int i = 0;
             while(i<5)
@@ -191,11 +197,11 @@ public class GameManager : MonoBehaviour
             // end the game
             if (score > 10)
             {
-                SceneManager.LoadScene("SuccessEnd");
+                StartCoroutine(FadeToBlackAndLoadScene("SuccessEnd"));
             }
             else
             {
-                SceneManager.LoadScene("FailedEnd");
+                StartCoroutine(FadeToBlackAndLoadScene("FailedEnd"));
             }
         }
     }
@@ -263,9 +269,32 @@ public class GameManager : MonoBehaviour
         }
         audioSource.volume = targetVolume;
     }
-    
-                                                                                                                                                            
+
+    private IEnumerator FadeToBlackAndLoadScene(string sceneName)
+    {
+        if (fadeImage == null)
+        {
+            yield break;
+        }
+
+        float elapsedTime = 0f;
+        Color startColor = new Color(0, 0, 0, 0);
+        Color endColor = new Color(0, 0, 0, 1);
+
+        while (elapsedTime < 5f)
+        {
+            elapsedTime += Time.deltaTime;
+            float t = Mathf.Clamp01(elapsedTime / 5f);
+            fadeImage.color = Color.Lerp(startColor, endColor, t);
+            yield return null;
+        }
+
+        fadeImage.color = endColor;
+
+        SceneManager.LoadScene(sceneName);   
+    }                                                                                                                                                     
     #endregion
+
     #region public functions
     public void AddScore(int amount)
     {
