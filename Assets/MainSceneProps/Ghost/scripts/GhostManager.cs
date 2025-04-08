@@ -100,7 +100,7 @@ public class GhostManager : MonoBehaviour
 
                 currentlyPurging.Remove(ghost);
 
-                yield return new WaitForSeconds(1.5f);
+                yield return new WaitForSeconds(0.7f);
             }
             else
             {
@@ -152,6 +152,7 @@ public class GhostManager : MonoBehaviour
         {
             Destroy(ghost);
             GameManager.instance.AddScore(addscore);
+            GameManager.instance.playGhostOutSound();
             yield break;
         }
 
@@ -162,6 +163,7 @@ public class GhostManager : MonoBehaviour
             {
                 Destroy(ghost);
                 GameManager.instance.AddScore(addscore);
+                GameManager.instance.playGhostOutSound();
                 yield break;
             }
 
@@ -175,6 +177,7 @@ public class GhostManager : MonoBehaviour
         {
             Destroy(ghost);
             GameManager.instance.AddScore(addscore);
+            GameManager.instance.playGhostOutSound();
         }
     }
     
