@@ -232,7 +232,7 @@ public class GameManager : MonoBehaviour
         if (isNormalFloor)
         {
             int i = 0;
-            while(i< (60 / floorChangeInterval))
+            while(i< (30 / floorChangeInterval))
             {
                 yield return new WaitForSeconds(floorChangeInterval);
                 UpdateFloorDisplay();
@@ -278,6 +278,7 @@ public class GameManager : MonoBehaviour
     public void ButtonPressed(GameObject button)
     {
         button.GetComponent<SpriteRenderer>().sprite = buttonPressedSprite; 
+        playButtonPressedSound();
     }
     public void ButtonReleased(GameObject button)
     {

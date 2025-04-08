@@ -98,6 +98,7 @@ public class Ghost : MonoBehaviour
     {
         if (other.gameObject == player)
         {
+            GameManager.instance.playTouchedSound();
             GameManager.instance.SubtractScore(reducescore);
             pauseTimer = pauseDuration;
         }

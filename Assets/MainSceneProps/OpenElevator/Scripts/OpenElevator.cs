@@ -8,6 +8,7 @@ public class OpenElevator : MonoBehaviour
     public float moveDistance = 1f;
     public float moveSpeed = 1f;
     public bool canMove = true;
+    public bool inMenuScene = false;
 
     private Vector3 originalPos;
     private Vector3 targetPos;
@@ -26,9 +27,17 @@ public class OpenElevator : MonoBehaviour
     {
         if (door != null)
         {
-            targetPos = door.transform.position;
-            // targetPos = originalPos + Vector3.right * moveDistance;
-            originalPos = targetPos - Vector3.right * moveDistance;
+            if (!inMenuScene)
+            {
+                targetPos = door.transform.position;
+                // targetPos = originalPos + Vector3.right * moveDistance;
+                originalPos = targetPos - Vector3.right * moveDistance;
+            }
+            else
+            {
+                originalPos = door.transform.position;
+                targetPos = originalPos + Vector3.right * moveDistance;
+            }
         }
     }
 
@@ -46,7 +55,7 @@ public class OpenElevator : MonoBehaviour
                 foreach (var col in colliders)
                 {
                     if (col.CompareTag("Player"))
-                    {
+                    {   
                         playerInside = true;
 
                         if (isReturning)
@@ -123,13 +132,16 @@ public class OpenElevator : MonoBehaviour
         // when player inside change
         if (playerInside == true && playerInsideLastFrame == false)
         {
-            GameManager.instance.ButtonPressed(button);
+            if (inMenuScene) MenuManager.instance.ButtonPressed(button);
+            else GameManager.instance.ButtonPressed(button);
         }
         else if (playerInside == false && playerInsideLastFrame == true)
         {
-            GameManager.instance.ButtonReleased(button);
+            if (inMenuScene) MenuManager.instance.ButtonReleased(button);
+            else GameManager.instance.ButtonReleased(button);
         }
         playerInsideLastFrame = playerInside;
+
     }
 
     public bool IsDoorMoving()
