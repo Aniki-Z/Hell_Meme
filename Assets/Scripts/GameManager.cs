@@ -195,7 +195,7 @@ public class GameManager : MonoBehaviour
             }
 
             // end the game
-            if (score > 10)
+            if (score > 50)
             {
                 StartCoroutine(FadeToBlackAndLoadScene("SuccessEnd"));
             }
