@@ -174,10 +174,10 @@ public class GameManager : MonoBehaviour
             // Stop button glow effect
             StopCoroutine(glowCoroutineLeft);
             StopCoroutine(glowCoroutineRight);
-            SpriteRenderer leftGlow = leftButton.GetComponentInChildren<SpriteRenderer>();
-            SpriteRenderer rightGlow = rightButton.GetComponentInChildren<SpriteRenderer>();
-            if (leftGlow != null) leftGlow.enabled = false;
-            if (rightGlow != null) rightGlow.enabled = false;
+            SpriteRenderer leftGlow = leftButton.transform.GetChild(0).GetComponent<SpriteRenderer>();
+            SpriteRenderer rightGlow = rightButton.transform.GetChild(0).GetComponent<SpriteRenderer>();
+            if (leftGlow != null) leftGlow.gameObject.SetActive(false);
+            if (rightGlow != null) rightGlow.gameObject.SetActive(false);
 
             currentState = CurrentState.Warning;
         }
@@ -404,14 +404,14 @@ public class GameManager : MonoBehaviour
         if (glowSprite == null) yield break;
 
         // Enable and set initial color
-        glowSprite.enabled = true;
+        glowSprite.gameObject.SetActive(true);
         Color originalColor = glowSprite.color;
         
         // glow effect
         while (true)
         {
             float t = Mathf.PingPong(Time.time * 2f, 1f);
-            float alpha = Mathf.Lerp(0.2f, 1f, t);
+            float alpha = Mathf.Lerp(0f, 0.2f, t);
             glowSprite.color = new Color(originalColor.r, originalColor.g, originalColor.b, alpha);
             yield return null;
         }
