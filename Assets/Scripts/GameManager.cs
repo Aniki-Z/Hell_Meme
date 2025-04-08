@@ -42,7 +42,7 @@ public class GameManager : MonoBehaviour
         Warning
     }
     private CurrentState _currentState;
-    public bool isNormalFloor => currentFloor > -17;
+    public bool isNormalFloor => currentFloor >= -17;
     
     // when state changes, call OnStateChanged 
     public CurrentState currentState
