@@ -1,0 +1,713 @@
+fileFormatVersion: 2
+guid: 044ffffcc8fe45b41a05c7f984c184ab
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3063244891171014838
+    second: "0_0006_Don\u2019t-throw-me-in!-I-hate-fire!_0"
+  - first:
+      213: 1211059728044978947
+    second: "0_0006_Don\u2019t-throw-me-in!-I-hate-fire!_1"
+  - first:
+      213: 6909264050292071165
+    second: "0_0006_Don\u2019t-throw-me-in!-I-hate-fire!_2"
+  - first:
+      213: 7735317297721372238
+    second: "0_0006_Don\u2019t-throw-me-in!-I-hate-fire!_3"
+  - first:
+      213: 4500714786650317400
+    second: "0_0006_Don\u2019t-throw-me-in!-I-hate-fire!_4"
+  - first:
+      213: -1145131368774771282
+    second: "0_0006_Don\u2019t-throw-me-in!-I-hate-fire!_5"
+  - first:
+      213: 572559883714282849
+    second: "0_0006_Don\u2019t-throw-me-in!-I-hate-fire!_6"
+  - first:
+      213: -9165366697010515693
+    second: "0_0006_Don\u2019t-throw-me-in!-I-hate-fire!_7"
+  - first:
+      213: -3428841090118196213
+    second: "0_0006_Don\u2019t-throw-me-in!-I-hate-fire!_8"
+  - first:
+      213: 4844132397881709403
+    second: "0_0006_Don\u2019t-throw-me-in!-I-hate-fire!_9"
+  - first:
+      213: -5292683946976498737
+    second: "0_0006_Don\u2019t-throw-me-in!-I-hate-fire!_10"
+  - first:
+      213: -8085399786640914944
+    second: "0_0006_Don\u2019t-throw-me-in!-I-hate-fire!_11"
+  - first:
+      213: 2640773311071507797
+    second: "0_0006_Don\u2019t-throw-me-in!-I-hate-fire!_12"
+  - first:
+      213: -225089479422072215
+    second: "0_0006_Don\u2019t-throw-me-in!-I-hate-fire!_13"
+  - first:
+      213: 8595728071170090777
+    second: "0_0006_Don\u2019t-throw-me-in!-I-hate-fire!_14"
+  - first:
+      213: 5676614687386918863
+    second: "0_0006_Don\u2019t-throw-me-in!-I-hate-fire!_15"
+  - first:
+      213: 7544225370426536136
+    second: "0_0006_Don\u2019t-throw-me-in!-I-hate-fire!_16"
+  - first:
+      213: -4211787929944216715
+    second: "0_0006_Don\u2019t-throw-me-in!-I-hate-fire!_17"
+  - first:
+      213: 6274951711193432696
+    second: "0_0006_Don\u2019t-throw-me-in!-I-hate-fire!_18"
+  - first:
+      213: 2961541069911644392
+    second: "0_0006_Don\u2019t-throw-me-in!-I-hate-fire!_19"
+  - first:
+      213: -5918058607480847833
+    second: "0_0006_Don\u2019t-throw-me-in!-I-hate-fire!_20"
+  - first:
+      213: -4287337843418830830
+    second: "0_0006_Don\u2019t-throw-me-in!-I-hate-fire!_21"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Win64
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "0_0006_Don\u2019t-throw-me-in!-I-hate-fire!_0"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 49
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a47b8b1500b2d75d0800000000000000
+      internalID: -3063244891171014838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "0_0006_Don\u2019t-throw-me-in!-I-hate-fire!_1"
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 66
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 303f6ebf76c8ec010800000000000000
+      internalID: 1211059728044978947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "0_0006_Don\u2019t-throw-me-in!-I-hate-fire!_2"
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 47
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfa19010c03a2ef50800000000000000
+      internalID: 6909264050292071165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "0_0006_Don\u2019t-throw-me-in!-I-hate-fire!_3"
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 46
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4eed9b491e595b60800000000000000
+      internalID: 7735317297721372238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "0_0006_Don\u2019t-throw-me-in!-I-hate-fire!_4"
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 64
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 852e3ada040c57e30800000000000000
+      internalID: 4500714786650317400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "0_0006_Don\u2019t-throw-me-in!-I-hate-fire!_5"
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 53
+        width: 6
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eadd507561dab10f0800000000000000
+      internalID: -1145131368774771282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "0_0006_Don\u2019t-throw-me-in!-I-hate-fire!_6"
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 49
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 165cd614e2422f700800000000000000
+      internalID: 572559883714282849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "0_0006_Don\u2019t-throw-me-in!-I-hate-fire!_7"
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 48
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3113e7c9c831ec080800000000000000
+      internalID: -9165366697010515693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "0_0006_Don\u2019t-throw-me-in!-I-hate-fire!_8"
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 48
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b04ed30023f4a60d0800000000000000
+      internalID: -3428841090118196213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "0_0006_Don\u2019t-throw-me-in!-I-hate-fire!_9"
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 47
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5353b420c0d93340800000000000000
+      internalID: 4844132397881709403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "0_0006_Don\u2019t-throw-me-in!-I-hate-fire!_10"
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 48
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcbad08fdfb9c86b0800000000000000
+      internalID: -5292683946976498737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "0_0006_Don\u2019t-throw-me-in!-I-hate-fire!_11"
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 49
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 006cf3a7bb3eacf80800000000000000
+      internalID: -8085399786640914944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "0_0006_Don\u2019t-throw-me-in!-I-hate-fire!_12"
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 47
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 555dfb2c559e5a420800000000000000
+      internalID: 2640773311071507797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "0_0006_Don\u2019t-throw-me-in!-I-hate-fire!_13"
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 47
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96aae50af4250ecf0800000000000000
+      internalID: -225089479422072215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "0_0006_Don\u2019t-throw-me-in!-I-hate-fire!_14"
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 3
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91762fb73292a4770800000000000000
+      internalID: 8595728071170090777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "0_0006_Don\u2019t-throw-me-in!-I-hate-fire!_15"
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 2
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcf56707bf267ce40800000000000000
+      internalID: 5676614687386918863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "0_0006_Don\u2019t-throw-me-in!-I-hate-fire!_16"
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 3
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c073cdd00972b860800000000000000
+      internalID: 7544225370426536136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "0_0006_Don\u2019t-throw-me-in!-I-hate-fire!_17"
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 5
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57ba5665139bc85c0800000000000000
+      internalID: -4211787929944216715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "0_0006_Don\u2019t-throw-me-in!-I-hate-fire!_18"
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 0
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8720a60d55b151750800000000000000
+      internalID: 6274951711193432696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "0_0006_Don\u2019t-throw-me-in!-I-hate-fire!_19"
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 4
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e850d389e1891920800000000000000
+      internalID: 2961541069911644392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "0_0006_Don\u2019t-throw-me-in!-I-hate-fire!_20"
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 3
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 722492d3d05dedda0800000000000000
+      internalID: -5918058607480847833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "0_0006_Don\u2019t-throw-me-in!-I-hate-fire!_21"
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 9
+        width: 7
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2186eea52f05084c0800000000000000
+      internalID: -4287337843418830830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      "0_0006_Don\u2019t-throw-me-in!-I-hate-fire!_0": -3063244891171014838
+      "0_0006_Don\u2019t-throw-me-in!-I-hate-fire!_1": 1211059728044978947
+      "0_0006_Don\u2019t-throw-me-in!-I-hate-fire!_10": -5292683946976498737
+      "0_0006_Don\u2019t-throw-me-in!-I-hate-fire!_11": -8085399786640914944
+      "0_0006_Don\u2019t-throw-me-in!-I-hate-fire!_12": 2640773311071507797
+      "0_0006_Don\u2019t-throw-me-in!-I-hate-fire!_13": -225089479422072215
+      "0_0006_Don\u2019t-throw-me-in!-I-hate-fire!_14": 8595728071170090777
+      "0_0006_Don\u2019t-throw-me-in!-I-hate-fire!_15": 5676614687386918863
+      "0_0006_Don\u2019t-throw-me-in!-I-hate-fire!_16": 7544225370426536136
+      "0_0006_Don\u2019t-throw-me-in!-I-hate-fire!_17": -4211787929944216715
+      "0_0006_Don\u2019t-throw-me-in!-I-hate-fire!_18": 6274951711193432696
+      "0_0006_Don\u2019t-throw-me-in!-I-hate-fire!_19": 2961541069911644392
+      "0_0006_Don\u2019t-throw-me-in!-I-hate-fire!_2": 6909264050292071165
+      "0_0006_Don\u2019t-throw-me-in!-I-hate-fire!_20": -5918058607480847833
+      "0_0006_Don\u2019t-throw-me-in!-I-hate-fire!_21": -4287337843418830830
+      "0_0006_Don\u2019t-throw-me-in!-I-hate-fire!_3": 7735317297721372238
+      "0_0006_Don\u2019t-throw-me-in!-I-hate-fire!_4": 4500714786650317400
+      "0_0006_Don\u2019t-throw-me-in!-I-hate-fire!_5": -1145131368774771282
+      "0_0006_Don\u2019t-throw-me-in!-I-hate-fire!_6": 572559883714282849
+      "0_0006_Don\u2019t-throw-me-in!-I-hate-fire!_7": -9165366697010515693
+      "0_0006_Don\u2019t-throw-me-in!-I-hate-fire!_8": -3428841090118196213
+      "0_0006_Don\u2019t-throw-me-in!-I-hate-fire!_9": 4844132397881709403
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 65983fd6261b9f147bb89e6a166f91b6
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 241298
+  packageName: 'Retro: Old Films'
+  packageVersion: 2.0.0
+  assetPath: Assets/FronkonGames/Retro/OldFilms/Editor/Internal/Inspector.GUI.cs
+  uploadId: 740039

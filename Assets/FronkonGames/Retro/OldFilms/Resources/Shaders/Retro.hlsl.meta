@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 1f2c5644c14c5ee458b56c79084f24dc
+ShaderIncludeImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 241298
+  packageName: 'Retro: Old Films'
+  packageVersion: 2.0.0
+  assetPath: Assets/FronkonGames/Retro/OldFilms/Resources/Shaders/Retro.hlsl
+  uploadId: 740039

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: f9ef474a633cfef44bbc9999357f9ab1
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 241298
+  packageName: 'Retro: Old Films'
+  packageVersion: 2.0.0
+  assetPath: Assets/FronkonGames/Retro/OldFilms/Runtime/OldFilms.Presets.cs
+  uploadId: 740039

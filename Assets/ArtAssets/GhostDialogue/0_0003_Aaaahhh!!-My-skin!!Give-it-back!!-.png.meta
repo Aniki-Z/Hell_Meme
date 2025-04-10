@@ -1,0 +1,765 @@
+fileFormatVersion: 2
+guid: fbac03fcb4ba6e348bcd077237d98f11
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6335862015044872183
+    second: 0_0003_Aaaahhh!!-My-skin!!Give-it-back!!-_0
+  - first:
+      213: -6998789611441737132
+    second: 0_0003_Aaaahhh!!-My-skin!!Give-it-back!!-_1
+  - first:
+      213: -4865800972240540463
+    second: 0_0003_Aaaahhh!!-My-skin!!Give-it-back!!-_2
+  - first:
+      213: -2325277794015251024
+    second: 0_0003_Aaaahhh!!-My-skin!!Give-it-back!!-_3
+  - first:
+      213: -2089840641051538833
+    second: 0_0003_Aaaahhh!!-My-skin!!Give-it-back!!-_4
+  - first:
+      213: 99795644729236767
+    second: 0_0003_Aaaahhh!!-My-skin!!Give-it-back!!-_5
+  - first:
+      213: -760299010503611887
+    second: 0_0003_Aaaahhh!!-My-skin!!Give-it-back!!-_6
+  - first:
+      213: 3327341737625846191
+    second: 0_0003_Aaaahhh!!-My-skin!!Give-it-back!!-_7
+  - first:
+      213: -3181583856043105486
+    second: 0_0003_Aaaahhh!!-My-skin!!Give-it-back!!-_8
+  - first:
+      213: 1255755450381629095
+    second: 0_0003_Aaaahhh!!-My-skin!!Give-it-back!!-_9
+  - first:
+      213: -6215501183061415152
+    second: 0_0003_Aaaahhh!!-My-skin!!Give-it-back!!-_10
+  - first:
+      213: 2293052284729670623
+    second: 0_0003_Aaaahhh!!-My-skin!!Give-it-back!!-_11
+  - first:
+      213: -1312913941568504980
+    second: 0_0003_Aaaahhh!!-My-skin!!Give-it-back!!-_12
+  - first:
+      213: 1864010878787618983
+    second: 0_0003_Aaaahhh!!-My-skin!!Give-it-back!!-_13
+  - first:
+      213: 7528394645322230815
+    second: 0_0003_Aaaahhh!!-My-skin!!Give-it-back!!-_14
+  - first:
+      213: 8169033289555176067
+    second: 0_0003_Aaaahhh!!-My-skin!!Give-it-back!!-_15
+  - first:
+      213: -6269282055213753840
+    second: 0_0003_Aaaahhh!!-My-skin!!Give-it-back!!-_16
+  - first:
+      213: 2010902269266279335
+    second: 0_0003_Aaaahhh!!-My-skin!!Give-it-back!!-_17
+  - first:
+      213: -1082112060163355169
+    second: 0_0003_Aaaahhh!!-My-skin!!Give-it-back!!-_18
+  - first:
+      213: 8567071200747638360
+    second: 0_0003_Aaaahhh!!-My-skin!!Give-it-back!!-_19
+  - first:
+      213: 4962725989892166044
+    second: 0_0003_Aaaahhh!!-My-skin!!Give-it-back!!-_20
+  - first:
+      213: 9173563424832172719
+    second: 0_0003_Aaaahhh!!-My-skin!!Give-it-back!!-_21
+  - first:
+      213: -849088539634709151
+    second: 0_0003_Aaaahhh!!-My-skin!!Give-it-back!!-_22
+  - first:
+      213: 5842012187437193475
+    second: 0_0003_Aaaahhh!!-My-skin!!Give-it-back!!-_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Win64
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 0_0003_Aaaahhh!!-My-skin!!Give-it-back!!-_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 44
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9081c5fe01f7218a0800000000000000
+      internalID: -6335862015044872183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0_0003_Aaaahhh!!-My-skin!!Give-it-back!!-_1
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 47
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4523258fded4fde90800000000000000
+      internalID: -6998789611441737132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0_0003_Aaaahhh!!-My-skin!!Give-it-back!!-_2
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 47
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dc2addbbc3397cb0800000000000000
+      internalID: -4865800972240540463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0_0003_Aaaahhh!!-My-skin!!Give-it-back!!-_3
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 44
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b5fd9b8a24fabfd0800000000000000
+      internalID: -2325277794015251024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0_0003_Aaaahhh!!-My-skin!!Give-it-back!!-_4
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 44
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6ac2f862056ff2e0800000000000000
+      internalID: -2089840641051538833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0_0003_Aaaahhh!!-My-skin!!Give-it-back!!-_5
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 44
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1d97323c9b826100800000000000000
+      internalID: 99795644729236767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0_0003_Aaaahhh!!-My-skin!!Give-it-back!!-_6
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 51
+        width: 7
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11ae9d30410e275f0800000000000000
+      internalID: -760299010503611887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0_0003_Aaaahhh!!-My-skin!!Give-it-back!!-_7
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 45
+        width: 7
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa1058d6ea71d2e20800000000000000
+      internalID: 3327341737625846191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0_0003_Aaaahhh!!-My-skin!!Give-it-back!!-_8
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 38
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 233ee65f65eb8d3d0800000000000000
+      internalID: -3181583856043105486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0_0003_Aaaahhh!!-My-skin!!Give-it-back!!-_9
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 0
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a6f1c8cde65d6110800000000000000
+      internalID: 1255755450381629095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0_0003_Aaaahhh!!-My-skin!!Give-it-back!!-_10
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 0
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01baa9aea9a1eb9a0800000000000000
+      internalID: -6215501183061415152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0_0003_Aaaahhh!!-My-skin!!Give-it-back!!-_11
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 7
+        width: 7
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdbb5b267ee82df10800000000000000
+      internalID: 2293052284729670623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0_0003_Aaaahhh!!-My-skin!!Give-it-back!!-_12
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 7
+        width: 7
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6bb62ce9b797cde0800000000000000
+      internalID: -1312913941568504980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0_0003_Aaaahhh!!-My-skin!!Give-it-back!!-_13
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 18
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a8899fa40c4ed910800000000000000
+      internalID: 1864010878787618983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0_0003_Aaaahhh!!-My-skin!!Give-it-back!!-_14
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 18
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1c6263fa0b3a7860800000000000000
+      internalID: 7528394645322230815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0_0003_Aaaahhh!!-My-skin!!Give-it-back!!-_15
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 1
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38ae646de7c3e5170800000000000000
+      internalID: 8169033289555176067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0_0003_Aaaahhh!!-My-skin!!Give-it-back!!-_16
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 1
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01ad046df290ff8a0800000000000000
+      internalID: -6269282055213753840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0_0003_Aaaahhh!!-My-skin!!Give-it-back!!-_17
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 0
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7abb4ada5f828eb10800000000000000
+      internalID: 2010902269266279335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0_0003_Aaaahhh!!-My-skin!!Give-it-back!!-_18
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 7
+        width: 7
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdd0cc680d09bf0f0800000000000000
+      internalID: -1082112060163355169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0_0003_Aaaahhh!!-My-skin!!Give-it-back!!-_19
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 1
+        width: 6
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85eca06edd954e670800000000000000
+      internalID: 8567071200747638360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0_0003_Aaaahhh!!-My-skin!!Give-it-back!!-_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c911f118ef42fd440800000000000000
+      internalID: 4962725989892166044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0_0003_Aaaahhh!!-My-skin!!Give-it-back!!-_21
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 2
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa233adc45b0f4f70800000000000000
+      internalID: 9173563424832172719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0_0003_Aaaahhh!!-My-skin!!Give-it-back!!-_22
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 1
+        width: 27
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16dc73cc87e6734f0800000000000000
+      internalID: -849088539634709151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0_0003_Aaaahhh!!-My-skin!!Give-it-back!!-_23
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 2
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30952b5d12ff21150800000000000000
+      internalID: 5842012187437193475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      0_0003_Aaaahhh!!-My-skin!!Give-it-back!!-_0: -6335862015044872183
+      0_0003_Aaaahhh!!-My-skin!!Give-it-back!!-_1: -6998789611441737132
+      0_0003_Aaaahhh!!-My-skin!!Give-it-back!!-_10: -6215501183061415152
+      0_0003_Aaaahhh!!-My-skin!!Give-it-back!!-_11: 2293052284729670623
+      0_0003_Aaaahhh!!-My-skin!!Give-it-back!!-_12: -1312913941568504980
+      0_0003_Aaaahhh!!-My-skin!!Give-it-back!!-_13: 1864010878787618983
+      0_0003_Aaaahhh!!-My-skin!!Give-it-back!!-_14: 7528394645322230815
+      0_0003_Aaaahhh!!-My-skin!!Give-it-back!!-_15: 8169033289555176067
+      0_0003_Aaaahhh!!-My-skin!!Give-it-back!!-_16: -6269282055213753840
+      0_0003_Aaaahhh!!-My-skin!!Give-it-back!!-_17: 2010902269266279335
+      0_0003_Aaaahhh!!-My-skin!!Give-it-back!!-_18: -1082112060163355169
+      0_0003_Aaaahhh!!-My-skin!!Give-it-back!!-_19: 8567071200747638360
+      0_0003_Aaaahhh!!-My-skin!!Give-it-back!!-_2: -4865800972240540463
+      0_0003_Aaaahhh!!-My-skin!!Give-it-back!!-_20: 4962725989892166044
+      0_0003_Aaaahhh!!-My-skin!!Give-it-back!!-_21: 9173563424832172719
+      0_0003_Aaaahhh!!-My-skin!!Give-it-back!!-_22: -849088539634709151
+      0_0003_Aaaahhh!!-My-skin!!Give-it-back!!-_23: 5842012187437193475
+      0_0003_Aaaahhh!!-My-skin!!Give-it-back!!-_3: -2325277794015251024
+      0_0003_Aaaahhh!!-My-skin!!Give-it-back!!-_4: -2089840641051538833
+      0_0003_Aaaahhh!!-My-skin!!Give-it-back!!-_5: 99795644729236767
+      0_0003_Aaaahhh!!-My-skin!!Give-it-back!!-_6: -760299010503611887
+      0_0003_Aaaahhh!!-My-skin!!Give-it-back!!-_7: 3327341737625846191
+      0_0003_Aaaahhh!!-My-skin!!Give-it-back!!-_8: -3181583856043105486
+      0_0003_Aaaahhh!!-My-skin!!Give-it-back!!-_9: 1255755450381629095
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

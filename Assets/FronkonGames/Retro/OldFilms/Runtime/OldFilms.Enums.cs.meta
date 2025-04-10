@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 236ff7c36e30f6d4f8eb849da12b005c
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 241298
+  packageName: 'Retro: Old Films'
+  packageVersion: 2.0.0
+  assetPath: Assets/FronkonGames/Retro/OldFilms/Runtime/OldFilms.Enums.cs
+  uploadId: 740039

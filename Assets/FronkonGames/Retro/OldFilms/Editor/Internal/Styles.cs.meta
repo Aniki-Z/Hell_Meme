@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 91942baf93527c24bba7a092a991123a
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 241298
+  packageName: 'Retro: Old Films'
+  packageVersion: 2.0.0
+  assetPath: Assets/FronkonGames/Retro/OldFilms/Editor/Internal/Styles.cs
+  uploadId: 740039

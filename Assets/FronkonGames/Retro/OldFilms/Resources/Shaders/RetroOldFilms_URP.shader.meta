@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: c935f9e82c5655b4889c71f2838ddac4
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  preprocessorOverride: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 241298
+  packageName: 'Retro: Old Films'
+  packageVersion: 2.0.0
+  assetPath: Assets/FronkonGames/Retro/OldFilms/Resources/Shaders/RetroOldFilms_URP.shader
+  uploadId: 740039

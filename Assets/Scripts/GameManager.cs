@@ -35,6 +35,15 @@ public class GameManager : MonoBehaviour
     private IEnumerator glowCoroutineRight;
     [Header("Score")]
     public int score;
+
+    [Header("light")]
+    public GameObject elevatorStopIndicator;
+
+    [Header("Collectible Settings")]
+    public GameObject collectiblePrefab;
+    public Vector2 spawnMin = new Vector2(-3.2f, -4f);
+    public Vector2 spawnMax = new Vector2(3.2f, -1f);
+
     public enum CurrentState
     {
         Stopped,
@@ -105,6 +114,8 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
+        SpawnNewCollectible();
+
         score = 0;
         currentState = CurrentState.Stopped;
 
@@ -133,6 +144,22 @@ public class GameManager : MonoBehaviour
     // called once when the state changes
     private void OnStateChanged()
     {
+        if (elevatorStopIndicator != null)
+        {
+            if (currentState == CurrentState.Stopped)
+            {
+                elevatorStopIndicator.SetActive(true);
+            }
+            else if (currentState == CurrentState.Warning)
+            {
+                StartCoroutine(BlinkAndTurnOffIndicator());
+            }
+            else
+            {
+                elevatorStopIndicator.SetActive(false);
+            }
+        }
+
         switch (currentState)
         {
             case CurrentState.Stopped:
@@ -145,6 +172,31 @@ public class GameManager : MonoBehaviour
                 StartCoroutine(StartWarning());
                 break;
         }
+    }
+
+
+    public void SpawnNewCollectible()
+    {
+        if (collectiblePrefab == null) return;
+
+        Vector2 newPos = new Vector2(
+            Random.Range(spawnMin.x, spawnMax.x),
+            Random.Range(spawnMin.y, spawnMax.y)
+        );
+
+        Instantiate(collectiblePrefab, newPos, Quaternion.identity);
+    }
+
+    private IEnumerator BlinkAndTurnOffIndicator(int blinkCount = 3, float blinkInterval = 0.3f)
+    {
+        for (int i = 0; i < blinkCount; i++)
+        {
+            elevatorStopIndicator.SetActive(false);
+            yield return new WaitForSeconds(blinkInterval);
+            elevatorStopIndicator.SetActive(true);
+            yield return new WaitForSeconds(blinkInterval);
+        }
+        elevatorStopIndicator.SetActive(false);
     }
 
     #region state functions
@@ -195,7 +247,7 @@ public class GameManager : MonoBehaviour
             }
 
             // end the game
-            if (score > 50)
+            if (score > 200)
             {
                 StartCoroutine(FadeToBlackAndLoadScene("SuccessEnd"));
             }
@@ -208,7 +260,9 @@ public class GameManager : MonoBehaviour
 
     // Warning => Moving
     IEnumerator StartWarning()
-    {   
+    {
+        GhostManager.instance.HideAllDialogues(); //电梯开始动前，清除台词
+
         shortElevatorAudio.PlayOneShot(elevatorAlarmClip, 0.15f);
         yield return new WaitForSeconds(1f);
         GhostManager.instance.ForceMoveElevators(false);

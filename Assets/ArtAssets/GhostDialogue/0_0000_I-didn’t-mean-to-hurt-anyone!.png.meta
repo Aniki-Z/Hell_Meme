@@ -1,0 +1,661 @@
+fileFormatVersion: 2
+guid: b2f7a01f0d67fd547bfdf28b326e73b2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1389022065376283954
+    second: "0_0000_I-didn\u2019t-mean-to-hurt-anyone!_0"
+  - first:
+      213: -4953872848240919382
+    second: "0_0000_I-didn\u2019t-mean-to-hurt-anyone!_1"
+  - first:
+      213: -6073432778012629351
+    second: "0_0000_I-didn\u2019t-mean-to-hurt-anyone!_2"
+  - first:
+      213: 7905799960395622824
+    second: "0_0000_I-didn\u2019t-mean-to-hurt-anyone!_3"
+  - first:
+      213: 3907424611372365949
+    second: "0_0000_I-didn\u2019t-mean-to-hurt-anyone!_4"
+  - first:
+      213: 3102737050521034939
+    second: "0_0000_I-didn\u2019t-mean-to-hurt-anyone!_5"
+  - first:
+      213: -2567313711989242096
+    second: "0_0000_I-didn\u2019t-mean-to-hurt-anyone!_6"
+  - first:
+      213: 7748602030983027936
+    second: "0_0000_I-didn\u2019t-mean-to-hurt-anyone!_7"
+  - first:
+      213: -5078478030877830226
+    second: "0_0000_I-didn\u2019t-mean-to-hurt-anyone!_8"
+  - first:
+      213: -5343072000618624303
+    second: "0_0000_I-didn\u2019t-mean-to-hurt-anyone!_9"
+  - first:
+      213: -6732454562517243981
+    second: "0_0000_I-didn\u2019t-mean-to-hurt-anyone!_10"
+  - first:
+      213: -2517832188765071534
+    second: "0_0000_I-didn\u2019t-mean-to-hurt-anyone!_11"
+  - first:
+      213: -7455540569880352525
+    second: "0_0000_I-didn\u2019t-mean-to-hurt-anyone!_12"
+  - first:
+      213: -4939877356766017848
+    second: "0_0000_I-didn\u2019t-mean-to-hurt-anyone!_13"
+  - first:
+      213: 5548486849921575467
+    second: "0_0000_I-didn\u2019t-mean-to-hurt-anyone!_14"
+  - first:
+      213: -2057862207744071295
+    second: "0_0000_I-didn\u2019t-mean-to-hurt-anyone!_15"
+  - first:
+      213: 6335864873679412306
+    second: "0_0000_I-didn\u2019t-mean-to-hurt-anyone!_16"
+  - first:
+      213: -5235330691889350933
+    second: "0_0000_I-didn\u2019t-mean-to-hurt-anyone!_17"
+  - first:
+      213: -7681633032633851195
+    second: "0_0000_I-didn\u2019t-mean-to-hurt-anyone!_18"
+  - first:
+      213: -138653588456655938
+    second: "0_0000_I-didn\u2019t-mean-to-hurt-anyone!_19"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Win64
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "0_0000_I-didn\u2019t-mean-to-hurt-anyone!_0"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 50
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23dcee7853cc64310800000000000000
+      internalID: 1389022065376283954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "0_0000_I-didn\u2019t-mean-to-hurt-anyone!_1"
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 49
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aacb52a24ee404bb0800000000000000
+      internalID: -4953872848240919382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "0_0000_I-didn\u2019t-mean-to-hurt-anyone!_2"
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 49
+        width: 13
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 996e75b1115d6bba0800000000000000
+      internalID: -6073432778012629351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "0_0000_I-didn\u2019t-mean-to-hurt-anyone!_3"
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 69
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a9ada06d2b07bd60800000000000000
+      internalID: 7905799960395622824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "0_0000_I-didn\u2019t-mean-to-hurt-anyone!_4"
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 50
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d78f77b4bf5f93630800000000000000
+      internalID: 3907424611372365949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "0_0000_I-didn\u2019t-mean-to-hurt-anyone!_5"
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 50
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb0efbf88e22f0b20800000000000000
+      internalID: 3102737050521034939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "0_0000_I-didn\u2019t-mean-to-hurt-anyone!_6"
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 51
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01744e9f7c11f5cd0800000000000000
+      internalID: -2567313711989242096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "0_0000_I-didn\u2019t-mean-to-hurt-anyone!_7"
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 51
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ec1d9a4e70988b60800000000000000
+      internalID: 7748602030983027936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "0_0000_I-didn\u2019t-mean-to-hurt-anyone!_8"
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 52
+        width: 23
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea3d6e9432f9589b0800000000000000
+      internalID: -5078478030877830226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "0_0000_I-didn\u2019t-mean-to-hurt-anyone!_9"
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 51
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1da8ac1035899d5b0800000000000000
+      internalID: -5343072000618624303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "0_0000_I-didn\u2019t-mean-to-hurt-anyone!_10"
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 5
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b7a3b6de348192a0800000000000000
+      internalID: -6732454562517243981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "0_0000_I-didn\u2019t-mean-to-hurt-anyone!_11"
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 8
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2571d90e6fcde0dd0800000000000000
+      internalID: -2517832188765071534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "0_0000_I-didn\u2019t-mean-to-hurt-anyone!_12"
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 6
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f8a4c35a59988890800000000000000
+      internalID: -7455540569880352525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "0_0000_I-didn\u2019t-mean-to-hurt-anyone!_13"
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 8
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c647f377b7027bb0800000000000000
+      internalID: -4939877356766017848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "0_0000_I-didn\u2019t-mean-to-hurt-anyone!_14"
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 7
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2a6082946f200d40800000000000000
+      internalID: 5548486849921575467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "0_0000_I-didn\u2019t-mean-to-hurt-anyone!_15"
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 0
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 189a6be99310173e0800000000000000
+      internalID: -2057862207744071295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "0_0000_I-didn\u2019t-mean-to-hurt-anyone!_16"
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 8
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25c5984a8838de750800000000000000
+      internalID: 6335864873679412306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "0_0000_I-didn\u2019t-mean-to-hurt-anyone!_17"
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 7
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be63c34497e5857b0800000000000000
+      internalID: -5235330691889350933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "0_0000_I-didn\u2019t-mean-to-hurt-anyone!_18"
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 6
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c2e3f2b47b556590800000000000000
+      internalID: -7681633032633851195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "0_0000_I-didn\u2019t-mean-to-hurt-anyone!_19"
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 12
+        width: 7
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb33531cb47631ef0800000000000000
+      internalID: -138653588456655938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      "0_0000_I-didn\u2019t-mean-to-hurt-anyone!_0": 1389022065376283954
+      "0_0000_I-didn\u2019t-mean-to-hurt-anyone!_1": -4953872848240919382
+      "0_0000_I-didn\u2019t-mean-to-hurt-anyone!_10": -6732454562517243981
+      "0_0000_I-didn\u2019t-mean-to-hurt-anyone!_11": -2517832188765071534
+      "0_0000_I-didn\u2019t-mean-to-hurt-anyone!_12": -7455540569880352525
+      "0_0000_I-didn\u2019t-mean-to-hurt-anyone!_13": -4939877356766017848
+      "0_0000_I-didn\u2019t-mean-to-hurt-anyone!_14": 5548486849921575467
+      "0_0000_I-didn\u2019t-mean-to-hurt-anyone!_15": -2057862207744071295
+      "0_0000_I-didn\u2019t-mean-to-hurt-anyone!_16": 6335864873679412306
+      "0_0000_I-didn\u2019t-mean-to-hurt-anyone!_17": -5235330691889350933
+      "0_0000_I-didn\u2019t-mean-to-hurt-anyone!_18": -7681633032633851195
+      "0_0000_I-didn\u2019t-mean-to-hurt-anyone!_19": -138653588456655938
+      "0_0000_I-didn\u2019t-mean-to-hurt-anyone!_2": -6073432778012629351
+      "0_0000_I-didn\u2019t-mean-to-hurt-anyone!_3": 7905799960395622824
+      "0_0000_I-didn\u2019t-mean-to-hurt-anyone!_4": 3907424611372365949
+      "0_0000_I-didn\u2019t-mean-to-hurt-anyone!_5": 3102737050521034939
+      "0_0000_I-didn\u2019t-mean-to-hurt-anyone!_6": -2567313711989242096
+      "0_0000_I-didn\u2019t-mean-to-hurt-anyone!_7": 7748602030983027936
+      "0_0000_I-didn\u2019t-mean-to-hurt-anyone!_8": -5078478030877830226
+      "0_0000_I-didn\u2019t-mean-to-hurt-anyone!_9": -5343072000618624303
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

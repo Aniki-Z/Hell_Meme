@@ -1,0 +1,16 @@
+{
+  "name": "com.fronkongames.retro.oldfilms",
+  "version": "2.0.1",
+  "displayName": "Retro: Old Films",
+  "description": "The best way to replicate the look of old movies.",
+  "unity": "2022.3",
+  "unityRelease": "45f1",
+  "dependencies":  {  },
+  "keywords": [ "unity", "retro", "movie", "vintage", "movies", "film", "films", "sepia", "kodak", "agfa", "cinema" ],
+  "author":
+  {
+    "name": "Fronkon Games",
+    "email": "fronkongames@gmail.com",
+    "url": "https://fronkongames.github.io/store/retro/"
+  }
+}

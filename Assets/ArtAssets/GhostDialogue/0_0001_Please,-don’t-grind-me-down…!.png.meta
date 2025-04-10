@@ -1,0 +1,817 @@
+fileFormatVersion: 2
+guid: 3fed3d7bec933b24f9f00002f1cf1bbc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5476593733234811816
+    second: "0_0001_Please,-don\u2019t-grind-me-down\u2026!_0"
+  - first:
+      213: -9060224529839320555
+    second: "0_0001_Please,-don\u2019t-grind-me-down\u2026!_1"
+  - first:
+      213: 8278225102229534691
+    second: "0_0001_Please,-don\u2019t-grind-me-down\u2026!_2"
+  - first:
+      213: -7233241863389386573
+    second: "0_0001_Please,-don\u2019t-grind-me-down\u2026!_3"
+  - first:
+      213: -1036951484145119733
+    second: "0_0001_Please,-don\u2019t-grind-me-down\u2026!_4"
+  - first:
+      213: 6173648314278310614
+    second: "0_0001_Please,-don\u2019t-grind-me-down\u2026!_5"
+  - first:
+      213: 8842339087140282912
+    second: "0_0001_Please,-don\u2019t-grind-me-down\u2026!_6"
+  - first:
+      213: -4373341763972377540
+    second: "0_0001_Please,-don\u2019t-grind-me-down\u2026!_7"
+  - first:
+      213: -4913796063432971813
+    second: "0_0001_Please,-don\u2019t-grind-me-down\u2026!_8"
+  - first:
+      213: 6485927159774041675
+    second: "0_0001_Please,-don\u2019t-grind-me-down\u2026!_9"
+  - first:
+      213: -1712709582795108541
+    second: "0_0001_Please,-don\u2019t-grind-me-down\u2026!_10"
+  - first:
+      213: 7723831815970672863
+    second: "0_0001_Please,-don\u2019t-grind-me-down\u2026!_11"
+  - first:
+      213: 4024279633503371538
+    second: "0_0001_Please,-don\u2019t-grind-me-down\u2026!_12"
+  - first:
+      213: 5996010489929365439
+    second: "0_0001_Please,-don\u2019t-grind-me-down\u2026!_13"
+  - first:
+      213: 3830608622882004807
+    second: "0_0001_Please,-don\u2019t-grind-me-down\u2026!_14"
+  - first:
+      213: -7139436341006981288
+    second: "0_0001_Please,-don\u2019t-grind-me-down\u2026!_15"
+  - first:
+      213: -6328146842468801957
+    second: "0_0001_Please,-don\u2019t-grind-me-down\u2026!_16"
+  - first:
+      213: -766281162029398826
+    second: "0_0001_Please,-don\u2019t-grind-me-down\u2026!_17"
+  - first:
+      213: -4530296902704952314
+    second: "0_0001_Please,-don\u2019t-grind-me-down\u2026!_18"
+  - first:
+      213: -3910264391140345180
+    second: "0_0001_Please,-don\u2019t-grind-me-down\u2026!_19"
+  - first:
+      213: -4914741829824101397
+    second: "0_0001_Please,-don\u2019t-grind-me-down\u2026!_20"
+  - first:
+      213: 4027312992978770358
+    second: "0_0001_Please,-don\u2019t-grind-me-down\u2026!_21"
+  - first:
+      213: -9162382425418017945
+    second: "0_0001_Please,-don\u2019t-grind-me-down\u2026!_22"
+  - first:
+      213: 7744563500617167899
+    second: "0_0001_Please,-don\u2019t-grind-me-down\u2026!_23"
+  - first:
+      213: -4763515629809633147
+    second: "0_0001_Please,-don\u2019t-grind-me-down\u2026!_24"
+  - first:
+      213: -5068732352917176286
+    second: "0_0001_Please,-don\u2019t-grind-me-down\u2026!_25"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Win64
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "0_0001_Please,-don\u2019t-grind-me-down\u2026!_0"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 44
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a36790fbf4c00c40800000000000000
+      internalID: 5476593733234811816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "0_0001_Please,-don\u2019t-grind-me-down\u2026!_1"
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 45
+        width: 8
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51295a11bcd934280800000000000000
+      internalID: -9060224529839320555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "0_0001_Please,-don\u2019t-grind-me-down\u2026!_2"
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 43
+        width: 13
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e7fc1dded922e270800000000000000
+      internalID: 8278225102229534691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "0_0001_Please,-don\u2019t-grind-me-down\u2026!_3"
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 63
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b8e03e39dc5e9b90800000000000000
+      internalID: -7233241863389386573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "0_0001_Please,-don\u2019t-grind-me-down\u2026!_4"
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 44
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0e47328e120c91f0800000000000000
+      internalID: -1036951484145119733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "0_0001_Please,-don\u2019t-grind-me-down\u2026!_5"
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 61
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d27fb4be643da550800000000000000
+      internalID: 6173648314278310614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "0_0001_Please,-don\u2019t-grind-me-down\u2026!_6"
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 43
+        width: 12
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0226c801d8c46ba70800000000000000
+      internalID: 8842339087140282912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "0_0001_Please,-don\u2019t-grind-me-down\u2026!_7"
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 46
+        width: 23
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c34db0d26d4ce43c0800000000000000
+      internalID: -4373341763972377540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "0_0001_Please,-don\u2019t-grind-me-down\u2026!_8"
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 45
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd96d54c380becbb0800000000000000
+      internalID: -4913796063432971813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "0_0001_Please,-don\u2019t-grind-me-down\u2026!_9"
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 46
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b46d36d4364a20a50800000000000000
+      internalID: 6485927159774041675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "0_0001_Please,-don\u2019t-grind-me-down\u2026!_10"
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 39
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34f071275bb3b38e0800000000000000
+      internalID: -1712709582795108541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "0_0001_Please,-don\u2019t-grind-me-down\u2026!_11"
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 46
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd0dacf2d10903b60800000000000000
+      internalID: 7723831815970672863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "0_0001_Please,-don\u2019t-grind-me-down\u2026!_12"
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 45
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 211cecf410d19d730800000000000000
+      internalID: 4024279633503371538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "0_0001_Please,-don\u2019t-grind-me-down\u2026!_13"
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 38
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb771c9b5cb163350800000000000000
+      internalID: 5996010489929365439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "0_0001_Please,-don\u2019t-grind-me-down\u2026!_14"
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 45
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74f1e604f3e092530800000000000000
+      internalID: 3830608622882004807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "0_0001_Please,-don\u2019t-grind-me-down\u2026!_15"
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 44
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 857a3c56970abec90800000000000000
+      internalID: -7139436341006981288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "0_0001_Please,-don\u2019t-grind-me-down\u2026!_16"
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 45
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b52232889f7ed28a0800000000000000
+      internalID: -6328146842468801957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "0_0001_Please,-don\u2019t-grind-me-down\u2026!_17"
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 1
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d40a23d75f9d55f0800000000000000
+      internalID: -766281162029398826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "0_0001_Please,-don\u2019t-grind-me-down\u2026!_18"
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 2
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60c083338f62121c0800000000000000
+      internalID: -4530296902704952314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "0_0001_Please,-don\u2019t-grind-me-down\u2026!_19"
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 0
+        width: 13
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4aa7834f043fbb9c0800000000000000
+      internalID: -3910264391140345180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "0_0001_Please,-don\u2019t-grind-me-down\u2026!_20"
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 2
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be3c49e58545bcbb0800000000000000
+      internalID: -4914741829824101397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "0_0001_Please,-don\u2019t-grind-me-down\u2026!_21"
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 0
+        width: 25
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b990d954d3e3e730800000000000000
+      internalID: 4027312992978770358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "0_0001_Please,-don\u2019t-grind-me-down\u2026!_22"
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 0
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7635dac7abda8d080800000000000000
+      internalID: -9162382425418017945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "0_0001_Please,-don\u2019t-grind-me-down\u2026!_23"
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 0
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b14fdbaa8773a7b60800000000000000
+      internalID: 7744563500617167899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "0_0001_Please,-don\u2019t-grind-me-down\u2026!_24"
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 0
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 588fc2bd5c794edb0800000000000000
+      internalID: -4763515629809633147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "0_0001_Please,-don\u2019t-grind-me-down\u2026!_25"
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 0
+        width: 7
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22087d2c7ce38a9b0800000000000000
+      internalID: -5068732352917176286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      "0_0001_Please,-don\u2019t-grind-me-down\u2026!_0": 5476593733234811816
+      "0_0001_Please,-don\u2019t-grind-me-down\u2026!_1": -9060224529839320555
+      "0_0001_Please,-don\u2019t-grind-me-down\u2026!_10": -1712709582795108541
+      "0_0001_Please,-don\u2019t-grind-me-down\u2026!_11": 7723831815970672863
+      "0_0001_Please,-don\u2019t-grind-me-down\u2026!_12": 4024279633503371538
+      "0_0001_Please,-don\u2019t-grind-me-down\u2026!_13": 5996010489929365439
+      "0_0001_Please,-don\u2019t-grind-me-down\u2026!_14": 3830608622882004807
+      "0_0001_Please,-don\u2019t-grind-me-down\u2026!_15": -7139436341006981288
+      "0_0001_Please,-don\u2019t-grind-me-down\u2026!_16": -6328146842468801957
+      "0_0001_Please,-don\u2019t-grind-me-down\u2026!_17": -766281162029398826
+      "0_0001_Please,-don\u2019t-grind-me-down\u2026!_18": -4530296902704952314
+      "0_0001_Please,-don\u2019t-grind-me-down\u2026!_19": -3910264391140345180
+      "0_0001_Please,-don\u2019t-grind-me-down\u2026!_2": 8278225102229534691
+      "0_0001_Please,-don\u2019t-grind-me-down\u2026!_20": -4914741829824101397
+      "0_0001_Please,-don\u2019t-grind-me-down\u2026!_21": 4027312992978770358
+      "0_0001_Please,-don\u2019t-grind-me-down\u2026!_22": -9162382425418017945
+      "0_0001_Please,-don\u2019t-grind-me-down\u2026!_23": 7744563500617167899
+      "0_0001_Please,-don\u2019t-grind-me-down\u2026!_24": -4763515629809633147
+      "0_0001_Please,-don\u2019t-grind-me-down\u2026!_25": -5068732352917176286
+      "0_0001_Please,-don\u2019t-grind-me-down\u2026!_3": -7233241863389386573
+      "0_0001_Please,-don\u2019t-grind-me-down\u2026!_4": -1036951484145119733
+      "0_0001_Please,-don\u2019t-grind-me-down\u2026!_5": 6173648314278310614
+      "0_0001_Please,-don\u2019t-grind-me-down\u2026!_6": 8842339087140282912
+      "0_0001_Please,-don\u2019t-grind-me-down\u2026!_7": -4373341763972377540
+      "0_0001_Please,-don\u2019t-grind-me-down\u2026!_8": -4913796063432971813
+      "0_0001_Please,-don\u2019t-grind-me-down\u2026!_9": 6485927159774041675
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

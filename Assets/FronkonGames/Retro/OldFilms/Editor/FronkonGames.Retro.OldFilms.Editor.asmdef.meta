@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 42767f4595710db4390def52aa472359
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 241298
+  packageName: 'Retro: Old Films'
+  packageVersion: 2.0.0
+  assetPath: Assets/FronkonGames/Retro/OldFilms/Editor/FronkonGames.Retro.OldFilms.Editor.asmdef
+  uploadId: 740039
